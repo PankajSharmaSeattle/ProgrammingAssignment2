@@ -1,5 +1,8 @@
 ## Put comments here that give an overall description of what your
 ## functions do
+##  The two function in this assignment collectively allow calculating the inverse
+## of a square matrix and caching the result for future retrieval
+## There is a test with results at the botton of this file.
 
 ## This function creates a special "matrix" object that can cache its inverse.
 makeCacheMatrix <- function(x = matrix()) {
@@ -71,7 +74,7 @@ cacheSolve <- function(x, ...) {
 #[1,]  0.56 -0.16 -0.06
 #[2,]  0.08  0.12 -0.08
 #[3,] -0.42  0.12  0.17
-## callint the cachesolve function again returns data from cache
+## call the cachesolve function again returns data from cache
 ## b <- cacheSolve(A)
 ##
 # getting cached data
